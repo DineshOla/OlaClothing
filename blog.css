@@ -86,3 +86,16 @@ header h1 {
         padding: 10px;
     }
 }
+
+@media (max-width: 768px) {
+    #about-us .content {
+        flex-direction: column;
+    }
+    #about-us .image, #about-us .text {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    #about-us .text p {
+        text-align: left;
+    }
+}
